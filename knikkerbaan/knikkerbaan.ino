@@ -29,6 +29,7 @@ void loop() {
   // verander toestanden op basis van sensoren
   if (huidigeTijd - laatsteSerialPrintTijd > SERIAL_PRINT_INTERVAL) {
     toestandSerial = TOESTAND_SERIAL_PRINT_NU;
+    laatsteSerialPrintTijd = millis();
   }
 
   // pas actuatoren aan
