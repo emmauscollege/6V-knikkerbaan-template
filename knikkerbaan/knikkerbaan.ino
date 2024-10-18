@@ -5,8 +5,8 @@ unsigned long laatsteSerialPrintTijd = 0;
 
 // toestand(en)
 const int TOESTAND_SERIAL_PRINT_NU = 1;
-const int TOESTAND_SERIAL_WACHT = 0
-int toestandSerial = TOESTAND_SERIAL_WACHT;
+const int TOESTAND_SERIAL_PRINT_WACHT = 0;
+int toestandSerial = TOESTAND_SERIAL_PRINT_WACHT;
 
 
 // constanten voor pinnen
@@ -19,7 +19,7 @@ const int SERIAL_PRINT_INTERVAL = 1000;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(tellerPin, INPUT);
+  pinMode(TELLERPIN, INPUT);
 }
 
 void loop() {
