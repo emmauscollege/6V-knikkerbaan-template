@@ -1,10 +1,10 @@
 
-#ports:
-  #- port: 8080
-  #  onOpen: open-preview
+ports:
+  - port: 8080
+    onOpen: open-preview
 tasks:
-  #- name: webserver
-  #  command: npx --yes http-server -c-1 # webserver on port 8080 no cache
+  - name: webserver
+    command: npx --yes http-server computer -c-1 # webserver on port 8080 no cache
   - name: shell
     init: git config pull.rebase false
     command: >
