@@ -31,15 +31,15 @@ void loop() {
       // de boodschap is wel compleet, maar er ontbreekt een dubbele punt
       // doe foutmelding, hier kun je later ook iets van maken dat je website
       // weer kan verwerken
-      Serial.println("Fout: invoer bevat geen dubbele punt. Invoer wordt genegeerd.");
+      //Serial.println("Fout: invoer bevat geen dubbele punt. Invoer wordt genegeerd.");
     } else {
       // Hak de binnengekomen boodschap in tweeën: het commando en de waarde:
       String commando = inputString.substring(0, dubbelePuntIndex);
       String waarde = inputString.substring(dubbelePuntIndex+1);
 
       // Dit is om te zien dat het werkt, mag je later weghalen
-      Serial.println(String("Je gaf het commando: ") + commando);
-      Serial.println(String("Je gaf de waarde: ") + waarde);
+      // Serial.println(String("Je gaf het commando: ") + commando);
+      // Serial.println(String("Je gaf de waarde: ") + waarde);
 
       if (commando.equals("led")) {
         // maak een integer van de string
@@ -53,7 +53,7 @@ void loop() {
           ledStatus = true;
         }
         else {
-          Serial.println("Ik kan niets met deze waarde voor dit commando.");
+          Serial.println("melding:Ik kan niets met deze waarde voor dit commando.");
         }
       }
       /*
@@ -63,7 +63,7 @@ void loop() {
       }
       */
       else {
-        Serial.println("Dit commando is mij onbekend");
+        Serial.println("melding:Dit commando is mij onbekend");
       }
     }
 
