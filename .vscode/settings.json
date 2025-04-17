@@ -8,4 +8,9 @@
     "git.autofetch": true, // autofetch (fetch means count, not read) changes from github periodically
     "git.autofetchPeriod": 60, // autofetch period 60 seconds
     "merge-conflict.autoNavigateNextConflict.enabled": true, // auto navigate to next merge conflict after resolving one
-}
+  
+    //"files.exclude": { // hide files in vscode
+    //  ".*": true,
+    //}
+  }
+  
