@@ -21,9 +21,6 @@ void setup() {
 
 void loop() {
   
-  
-  
-  
   if (stringComplete) {
     // op welke plek staat de dubbele punt
     int dubbelePuntIndex = inputString.indexOf(":");

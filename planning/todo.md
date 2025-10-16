@@ -1,20 +1,19 @@
 # MARBLE MANIA – PROJECT TODO
-Dit is de centrale takenlijst van jullie groep.
+Dit is de centrale takenlijst van jullie groep. Hierin staan **alle** taken die jullie nog moeten doen, in de huidige sprint uitvoeren of afgerond hebben.
 
 Pas deze lijst de eerste les aan of vul hem aan hoe jullie groepje graag werkt. Werk hem daarna wekelijks bij.
-Gebruik bijvoorbeeld deze notatie:
+Gebruik deze notatie:
 [ ] = nog te doen
 [~] = bezig
 [x] = klaar
 
-Zet bij elke taak wie er verantwoordelijk is (tussen haakjes).
 -----------------------------------------------
 
 1. ONTWERP & ORGANISATIE
 [ ] Team samenstellen en rollen/taken verdelen
 [ ] Schets / ontwerp van de knikkerbaanmodule
 [ ] Overzicht maken benodigde sensoren en actuatoren
-[ ] Sprintplanning (sprint-x.txt) opstellen
+[ ] Sprintplanning (sprint-x.md) opstellen
 
 -----------------------------------------------
 2. HARDWARE – KNIKKERBAAN

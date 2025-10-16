@@ -1,7 +1,16 @@
+// LET OP:
+// importeer en gebruik deze code
+// je hoeft hier niets in aan te passen
+
 let lineBuffer = '';
 let messages = [];
 
-
+/**
+ * getReader()
+ * Laat een venster zien en zorgt ervoor
+ * dat je een verbinding kunt maken met een
+ * Arduino die op de USB-poort is aangesloten.
+ */
 async function getReader() {
   port = await navigator.serial.requestPort({});
   await port.open({ baudRate: 9600 });
@@ -24,12 +33,20 @@ async function getReader() {
     .pipeTo(appendStream);
 }
 
-
+/**
+ * messageAvailable
+ * Geeft aan of er ongelezen berichten zijn
+ * @returns boolean
+ */
 function messageAvailable() {
   return messages.length > 0;
 }
 
-
+/**
+ * getMessage
+ * Geeft het eerstvolgende binnengekomen bericht
+ * @returns string -  het eerstvolgende bericht
+ */
 function getMessage() {
   let message = undefined;
 
@@ -41,7 +58,11 @@ function getMessage() {
   return message;
 }
 
-
+/**
+ * sendMessage
+ * Verzendt een bericht over de seriële poort
+ * @param {*} message string
+ */
 function sendMessage(message) {
   if (port != undefined && port.writable != undefined) {
     var enc = new TextEncoder();
@@ -52,8 +73,13 @@ function sendMessage(message) {
   }
 }
 
-// gebruik deze functie om een inkomend
-// bericht te simuleren
+/**
+ * simulateIncomingMessage
+ * gebruik deze functie om een inkomend
+ * bericht te simuleren als je geen Arduino
+ * bij de hand hebt maar toch wilt testen
+ * @param {*} message het bericht dat zogenaam binnenkomt
+ */
 function simulateIncomingMessage(message) {
   messages.push(message);
 }
