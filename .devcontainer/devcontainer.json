@@ -1,31 +1,27 @@
-// Configuration of server image and settings in Codespaces
-// File format: https://aka.ms/devcontainer.json. 
 {
+  "name": "Knikkerbaan",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
 
-    "name": "knikkerbaan",
+  "forwardPorts": [8080],
 
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+  "portsAttributes": {
+    "8080": {
+      "label": "Webserver",
+      "onAutoForward": "openBrowser"
+    }
+  },
 
-	"forwardPorts": [
-		8080
-	],
-	"portsAttributes": {
-		"8080": {
-			"label": "webserver",
-			"onAutoForward": "openPreview" 
-		}
-	},
+  "postCreateCommand": "npm install -g serve",
+  "postStartCommand": "serve ./website -l 8080",
 
-	"postStartCommand": "nohup bash -c 'npx --yes http-server website -c-1 > .nohup_webserver.out 2>&1 & rm nohup.out &'", // start webserver without cache on port 8080 and leave it running in background
-	
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
 			"extensions": [
-				"mathematic.vscode-pdf", // add viewer for pdf-files (this one supports vscode-web)
-				"ms-vsliveshare.vsliveshare", // add google-docs like typing in same file, click on live-share button in left icon pane
-				"mhutchie.git-graph" // add graphical viewer for branches and commits, click on button in Source-Code tab
+				"mathematic.vscode-pdf",
+				"ms-vsliveshare.vsliveshare",
+				"mhutchie.git-graph"
 			]
 		}
 	}

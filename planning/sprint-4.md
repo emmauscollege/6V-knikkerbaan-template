@@ -1,5 +1,5 @@
-# SPRINT 1 – MARBLE MANIA
-Periode: 27 oktober - 16 november
+# SPRINT 4 – MARBLE MANIA
+Periode: 15 december - 11 januari
 Aantal lessen: 
 
 Elke sprint duurt meestal twee weken en heeft meestal 4 lessen. 
@@ -9,17 +9,38 @@ Let erop dat je realistisch bent. Je kan altijd uiteindelijk meer doen, maar min
 ------------------------------------------------------------
 0. VERPLICHTE DOELEN
 
-* Basis knikkerbaan is gemaakt. Vang knikkers op aan begin, en laat ze op het einde weer verder gaan.
-* Verbinding met Arduino werkt
-* Teller en poortje in knikkerbaan werken 
+* Start ontwikkelen webwidget
+* Communicatie tussen Arduino en webpagina werkt
 ------------------------------------------------------------
-1. DOEL VAN DE SPRINT
+1. REFLECTIE OP VORIGE SPRINT
+Wat hadden we als doel vorige sprint?
+
+
+
+Wat is daarvan gelukt?
+
+
+
+Wat ging goed?
+
+
+
+Wat ging mis of kostte te veel tijd?
+
+
+
+Wat gaan we de volgende sprint anders doen?
+
+
+
+------------------------------------------------------------
+2. DOEL VAN DE SPRINT
 Wat willen we aan het einde van deze sprint werkend of af hebben?
 
 
 
 ------------------------------------------------------------
-2. TAAKVERDELING
+3. TAAKVERDELING
 Schrijf hier wat er moet gebeuren, wie het doet en hoe ver het is.
 
 Gebruik: [ ] = nog te doen   [~] = bezig   [x] = klaar
@@ -35,13 +56,13 @@ Taken:
 
 
 ------------------------------------------------------------
-3. RISICO’S / AFHANKELIJKHEDEN
-Wat kan vertraging opleveren? Denk aan ontbrekende onderdelen, codeproblemen of drukke moementen.
+4. RISICO’S / AFHANKELIJKHEDEN
+Wat kan vertraging opleveren? Denk aan ontbrekende onderdelen, codeproblemen of drukke momenten.
 
 
 
 ------------------------------------------------------------
-4. DEMO / OPLEVERING
+5. DEMO / OPLEVERING
 Wat kunnen jullie aan het einde van deze sprint laten zien of testen? Schrijf concrete dingen op die het moeten doen aan het einde van de sprint.
 
 

@@ -1,4 +1,3 @@
-
 // globale variabelen
 var button;
 var teller;
@@ -10,13 +9,14 @@ var teller;
  * als p5js wordt gestart
  */
 function setup() {
-  // Maak het canvas van je widget
+  // tekengebied van de widget, in dezelfde verhoudingen als de knikkerbaan
   createCanvas(300, 600);
 
   // maak een nieuw tellerobject
   // op de positie (150, 50)
   teller = //#TODO vul hier zelf aan
 
+  // p5js heeft zelf een klasse voor buttons
   // maak een button en stel deze in
   button = createButton(/* #TODO geef de button een eigen naam*/);
   button.position(/* #TODO geef de button een eigen positie*/);
@@ -46,6 +46,13 @@ function draw() {
   // #TODO laat de teller zien
 }
 
+
+/**
+ * buttonGeklikt()
+ * Voorbeeldfunctie
+ * De regel code "button.mouseClicked(buttonGeklikt);" zorgt ervoor
+ * dat deze functie wordt uitgevoerd als er op de button wordt geklikt
+ */
 function buttonGeklikt() {
   window.alert("button geklikt");
 }

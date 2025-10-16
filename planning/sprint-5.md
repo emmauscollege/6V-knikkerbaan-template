@@ -1,16 +1,17 @@
-# SPRINT 2 – MARBLE MANIA
-Periode: 17 november - 30 november
+# SPRINT 5 – MARBLE MANIA
+Periode: 12 januari - 25 januari
 Aantal lessen: 
 
 Elke sprint duurt meestal twee weken en heeft meestal 4 lessen. 
 Vul dit document in aan het begin van de sprint.
 Let erop dat je realistisch bent. Je kan altijd uiteindelijk meer doen, maar minder is niet handig.
-
 ------------------------------------------------------------
 0. VERPLICHTE DOELEN
 
-* Snelheidsmeter en wissel in knikkerbaan werken 
-* Eerste interactie tussen sensor en actuatoren werkt
+* webwidget is uitgebreid en verbeterd
+* Eind sprint 5 krijg je opnieuw een beoordeling voor:
+    * uiterlijk, functionaliteit, techniek en planning van de knikkerbaan (50% cijfer), deze kan slechts maximaal één punt hoger zijn dan de beoordeling einde sprint 3.
+    * uiterlijk, functionaliteit, techniek en planning van de widget + integratie (50% cijfer)
 ------------------------------------------------------------
 1. REFLECTIE OP VORIGE SPRINT
 Wat hadden we als doel vorige sprint?
@@ -57,7 +58,7 @@ Taken:
 
 ------------------------------------------------------------
 4. RISICO’S / AFHANKELIJKHEDEN
-Wat kan vertraging opleveren? Denk aan ontbrekende onderdelen, codeproblemen of drukke moementen.
+Wat kan vertraging opleveren? Denk aan ontbrekende onderdelen, codeproblemen of drukke momenten.
 
 
 
