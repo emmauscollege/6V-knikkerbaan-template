@@ -1,8 +1,10 @@
-// globale variabelen
+/*************** GLOBALE VARIABELEN ***************/
 var button;
 var teller;
 
 
+
+/****************** SETUP EN DRAW *****************/
 /**
  * setup
  * de code in deze functie wordt eenmaal uitgevoerd,
@@ -14,15 +16,19 @@ function setup() {
 
   // maak een nieuw tellerobject
   // op de positie (150, 50)
-  teller = //#TODO vul hier zelf aan
+  // #TODO haal de // weg en vul zelf aan:
+  // teller = 
 
   // p5js heeft zelf een klasse voor buttons
   // maak een button en stel deze in
-  button = createButton(/* #TODO geef de button een eigen naam*/);
-  button.position(/* #TODO geef de button een eigen positie*/);
-  button.mouseClicked(buttonGeklikt);
+  // #TODO haal de // weg en vul zelf aan:
+  // button = createButton(/* #TODO geef de button een eigen naam*/);
+  // button.position(/* #TODO geef de button een eigen positie*/);
+  // button.mouseClicked(buttonGeklikt);
 }
 
+
+/***************** EIGEN FUNCTIES *****************/
 
 /**
  * draw
@@ -43,7 +49,7 @@ function draw() {
   line(50, 20, 135, 60);
 
   // toon de teller
-  // #TODO laat de teller zien
+  // #TODO laat de teller zien m.b.v. show()
 }
 
 
