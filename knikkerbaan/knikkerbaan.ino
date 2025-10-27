@@ -34,7 +34,8 @@ void loop() {
 
   // pas actuatoren aan
   if (toestandSerial == TOESTAND_SERIAL_PRINT_NU) {
-    Serial.println("getelde knikkers: " + geteldeKnikkers);
+    Serial.print("getelde knikkers: ");
+    Serial.println(geteldeKnikkers);
   }
 
   // verander toestand indien een actuator maar eenmalig iets moet doen
