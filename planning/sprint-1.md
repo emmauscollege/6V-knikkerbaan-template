@@ -10,7 +10,7 @@ Let erop dat je realistisch bent. Je kan altijd uiteindelijk meer doen, maar min
 0. VERPLICHTE DOELEN
 
 * Basis knikkerbaan is gemaakt. Vang knikkers op aan begin, en laat ze op het einde weer verder gaan.
-* Verbinding met Arduino werkt
+* Je ontvangt gegevens van de Arduino-sensoren via de seriële poort.
 * Teller en poortje in knikkerbaan werken 
 ------------------------------------------------------------
 1. DOEL VAN DE SPRINT
